@@ -1,0 +1,268 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.head {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    border: 5px solid red;
+    border-radius: 50%;
+    left: 520px;
+    background-color: red;
+
+}
+
+.body {
+    height: 200px;
+    width: 170px;
+    position: absolute;
+    border: 5px solid blue;
+    top: 140px;
+    left: 500px;
+    background-color: blue;
+
+}
+
+.left.arm {
+    height: 100px;
+    width: 30px;
+    border: 5px solid black;
+    position: absolute;
+    transform: rotate(50deg);	
+    background-color: black;
+    
+
+    
+}
+
+ .braso1 {
+    height: 100px;
+    width: 30px;
+    position: absolute;
+    border: 5px solid black;
+    top: 70px;
+    left: 30px;
+    transform: rotate(90deg);
+    background-color: black;
+}
+
+.right.arm {
+   height: 100px;
+    width: 30px;
+    border: 5px solid black;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    
+}
+
+.braso2 {
+    height: 100px;
+    width: 30px;
+    position: absolute;
+    border: 5px solid black;
+    top: 69px;
+    left: 30px;
+    transform: rotate(90deg);
+    background-color: black;
+    
+}
+ 
+.left.hita {
+    height: 120px;
+    width: 50px;
+    position: absolute;
+    border: 5px solid black;
+    top: 350px;
+    left: 520px;
+    background-color: black; 
+}
+
+.right.hita {
+    height: 120px;
+    width: 50px;
+    position: absolute;
+    border: 5px solid black;
+    top: 350px;
+    left: 600px;
+    background-color: black;
+}
+
+.left.binti {
+    height: 120px;
+    width: 50px;
+    position: absolute;
+    border: 5px solid black;
+    top: 480px;
+    left: 520px;
+    background-color: black;
+    
+}
+
+.right.binti {
+    height: 120px;
+    width: 50px;
+    position: absolute;
+    border: 5px solid black;
+    top: 480px;
+    left: 600px;
+    background-color: black;
+}
+
+.left.paa {
+    position: absolute;
+    top: 615px;
+    left: 520px;
+    border-right: 24px solid transparent;
+    border-bottom: 30px solid brown;
+    border-left: 55px solid brown;
+    border-top: transparent;
+    
+   
+}
+.right.paa{
+    position: absolute;
+    top: 615px;
+    left: 600px;
+    border-right: 24px solid transparent;
+    border-bottom: 30px solid brown;
+    border-left: 55px solid brown;
+    border-top: transparent;
+}
+       
+.move0 .left.arm {
+   position: absolute;
+   left: 470px;
+   top: 158px;
+   transform: rotate(55deg);
+}
+
+.move0 .right.arm {
+  position: absolute;
+  left: 640px;
+  top: 160px;
+  transform: rotate(-40deg);
+}
+
+
+
+.move1 .left.arm {
+   position: absolute;
+   left: 590px;
+   top: 170px;
+   transform: rotate(-5deg);
+}
+
+.move1 .right.arm {
+   position: absolute;
+   left: 480px;
+   top: 160px;
+   transform: rotate(40deg);
+}
+
+.move1 .left.hita {
+   position: absolute;
+   left: 570px;
+   top: 350px;
+   transform: rotate(-30deg);
+   z-index: -1;
+
+}
+
+.move1 .right.hita {
+   position: absolute;
+   left: 530px;
+   top: 350px;
+}
+
+.move1 .left.binti {
+   position: absolute;
+   left: 600px;
+   top: 470px;
+}
+
+.move1 .right.binti {
+   position: absolute;
+   left: 530px;
+   top: 470px;
+} 
+
+.move1 .left.paa {
+   position: absolute;
+   left: 600px;
+   top: 605px;
+}
+
+.move1 .right.paa {
+  positin: absolute;
+  left: 530px;
+  top: 605px;
+}
+
+
+.move2 .left.arm {
+   position: absolute;
+   left: 620px;
+   top: 170px;
+   transform: rotate(-50deg);
+}
+
+.move2 .right.arm {
+   position: absolute;
+   left: 480px;
+   top: 150px;
+   transform: rotate(80deg);
+}
+
+.move2 .left.hita {
+   position: absolute;
+   left: 540px;
+   top: 350px;
+
+
+}
+
+.move2 .right.hita {
+   position: absolute;
+   left: 601px;
+   top: 340px;
+   transform: rotate(-30deg);
+   z-index: -1;
+}
+
+.move2 .left.binti {
+   position: absolute;
+   left: 540px;
+   top: 470px;
+}
+
+.move2 .right.binti {
+   position: absolute;
+   left: 600px;
+   top: 423px;
+  transform: rotate(30deg);
+} 
+
+.move2 .left.paa {
+   position: absolute;
+   left: 540px;
+   top: 600px;
+}
+
+.move2 .right.paa {
+  positin: absolute;
+  left: 565px;
+  top: 550px;
+  transform: rotate(30deg);
+  z-index: -1;
+}
+
+
